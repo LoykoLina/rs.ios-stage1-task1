@@ -3,5 +3,6 @@
 @interface PalindromeSolver : NSObject
 
 - (NSString *) highestValuePalindrome:(NSString *)s n:(NSNumber *)n k:(NSNumber *)k;
+- (NSMutableArray <NSNumber*>*) getArrayOfNumbersFromString:(NSString *) str;
 
 @end
